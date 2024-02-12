@@ -1,0 +1,174 @@
+body {
+    background-color: #3A506B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#main {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    border-radius: 10px 10px 20px 20px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+
+#logo {
+    background-image: url(/images/logo.JPG);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(0, 86, 92);
+    margin-left: 30px;
+}
+
+button {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+ }
+
+ button:hover {
+    background-color: #6FFFE9;
+    transform: translateY(-7px);
+}
+
+
+#container {
+    background-color: #30b6d9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 992px) {
+
+    #container{
+       
+        flex-direction: column;
+        
+    }
+
+}
+
+
+.card  {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: 100px;
+    height: 400px;
+}
+
+.text {
+    width: 500px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Helvetica';
+	line-height: 2;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.text h3 {
+    font-weight: bold;
+    margin: 0px;
+}
+
+#robothomepage {
+    background-image: url(/images/robothome.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#creator {
+    background-image: url(/images/creator.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 300px;
+    margin-top: 90px;
+    margin-right: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+img {
+    margin-top: 100px;
+    width: 150px;
+}
+
+.producto p{
+    margin-top: 0px;
+    margin-left: 28px;
+    font-family: 'Helvetica';
+	line-height: 2;
+    font-size: 38px;
+    color: white;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1040px) {
+
+    #formulario{
+       
+        flex-direction: column;
+        
+    }
+
+}
+
+
+
+fieldset {
+    width: 200px;
+}

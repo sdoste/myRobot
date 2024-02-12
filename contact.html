@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            <div id="logo"></div>
+            <div id="menu">
+                <a href="index.html"><button>Página de inicio</button></a>
+                <a href="shop.html"><button>Tienda</button></a>
+                <a href="contact.html"><button>Contacto</button></a>
+            </div>  
+        </header>
+        <div id="container">
+                <div id="formulario">
+                        <form action="recibido.html" method="GET">
+                            <h2>Contacta con nosotros</h2>
+                            <label for="name"></label><br><br>
+                            <select name="title" id="title">
+                                <option value="sir">Señor</option>
+                                <option value="madame">Señora</option>
+                                <option value="nonbinary">No binario</option>
+                            </select>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre"><br><br>
+        
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone"><br><br>
+
+                            <label for="address">Dirección</label>
+                            <input type="text" id="address" name="address"><br>
+        
+                                                                  
+                            <h4>Tipo de envio</h4>
+                            <input type="radio" id="enviar" name="recogida" value="enviar">
+                            <label for="enviar">Envío al portal</label>
+                            <input type="radio" id="recoger" name="recogida" value="recoger">
+                            <label for="recoger">Recoger en tienda</label><br><br>
+        
+                            <label for="comment">Comentarios</label><br>
+                            <textarea name="comment" id="comment" cols="30" rows="5"></textarea><br>
+        
+                            <input type="submit" value="submit"><br><br><br> 
+                        </form>
+                    <fieldset>
+                        <legend>¿Tienes cuenta? Inicia sesión</legend>
+                        <form action="recibido.html" method="GET">
+        
+                        <label for="user">Usuario</lagel><br>
+                        <input type="text" placeholder="Escribe tu usuario" name="user" required><br><br>
+        
+                        <label for="password">Contraseña</label><br>
+                        <input type="password" placeholder="Introduce tu contraseña" name="contraseña" required><br><br>
+        
+                        <input type="submit" value="Iniciar sesión"><br>
+                        <input type="checkbox" checked="checked" name="remember">
+                        <label for="remember">Mantener iniciada la sesión</label><br>
+                        </form><br>
+                    </fieldset><br>
+                </div> 
+        </div>
+    </div>
+</body>
+</html>
